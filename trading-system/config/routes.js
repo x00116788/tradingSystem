@@ -41,6 +41,7 @@ module.exports.routes = {
   'post /login': 'CustomerController.login',
   'post /signup': 'CustomerController.signup',
   '/logout': 'CustomerController.logout',
+  'get /customer/stock': 'MarketController.stock'
   
 
   /***************************************************************************
